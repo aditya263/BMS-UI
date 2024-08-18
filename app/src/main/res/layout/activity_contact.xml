@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_20sdp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textColorHint="@color/text_black"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/person_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_medium" />
+
+
+            <EditText
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textColorHint="@color/text_black"
+                android:hint="@string/email_id"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_medium" />
+
+
+            <EditText
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textColorHint="@color/text_black"
+                android:hint="@string/phone_no"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:maxLength="10"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/phoneno"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_medium" />
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_50sdp">
+                <Button
+                    android:id="@+id/order_request"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:text="Send Request"
+                    android:textSize="@dimen/_18sdp"
+                    android:background="@color/green_light"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height" />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

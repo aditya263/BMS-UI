@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="heading_size">@dimen/_30sdp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="line_height">@dimen/_6sdp</dimen>
+    <dimen name="text_main">@dimen/_16sdp</dimen>
+    <dimen name="text_margintop">@dimen/_10sdp</dimen>
+    <dimen name="button_witdh">@dimen/_250sdp</dimen>
+    <dimen name="button_height">@dimen/_40sdp</dimen>
+    <dimen name="num_ph_radius">6dp</dimen>
+
+</resources>
